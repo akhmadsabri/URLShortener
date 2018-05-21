@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title URL Shortener
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+    link(rel='stylesheet', href='../stylesheets/myStyle.css')
+  body
+    .site-wrapper
+      .site-wrapper-inner
+        .main-container
+          .inner.cover
+            h1 URL Shortener
+            form(method='post', action='/')
+              .input-group.input-group-lg
+                input.form-control(type='text', placeholder='Enter url', name='url', required='')
+                span.input-group-btn
+                  button.btn.btn-shorten(type='submit') SHORTEN
+                  br
+                  br  
+            if shortID == false
+              p Your shortlink is:  #{newID}
+              br

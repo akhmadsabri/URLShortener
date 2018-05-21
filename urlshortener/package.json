@@ -1,0 +1,22 @@
+{
+	"name": "NodejsStarterApp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"bcryptjs": "*",
+		"body-parser": "*",
+		"cfenv": "1.0.x",
+		"express": "4.13.x",
+		"mysql": "*",
+		"npm": "^6.0.1",
+		"pug": "^2.0.3",
+		"request": "*"
+	},
+	"repository": {},
+	"engines": {
+		"node": "6.x"
+	}
+}
